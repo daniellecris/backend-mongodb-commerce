@@ -10,4 +10,4 @@ db.produtos.updateMany(
   { $inc: { "vendasPorDia.6": 120 } },
 );
 
-db.produtos.find({}, { nome: true, vendasPorDia: true, _id: false })
+db.produtos.find({}, { nome: true, vendasPorDia: true, _id: false });
